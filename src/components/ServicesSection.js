@@ -20,28 +20,28 @@ const ServicesSection = () => {
               <img src={clock} alt='icon' />
               <h3>Efficient</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amer.</p>
           </Card>
           <Card>
             <div className='icon'>
               <img src={diaphragm} alt='icon' />
               <h3>Diaphragm</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amat.</p>
           </Card>
           <Card>
             <div className='icon'>
               <img src={teamwork} alt='icon' />
               <h3>Team Work</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit anet.</p>
           </Card>
           <Card>
             <div className='icon'>
               <img src={money} alt='icon' />
               <h3>Value</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amer.</p>
           </Card>
         </Cards>
       </Description>
