@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { AnimateSharedLayout } from 'framer-motion';
+import Toggle from './Toggle';
 import { About } from '../styles';
 
 const FaqSection = () => {
@@ -8,49 +10,43 @@ const FaqSection = () => {
       <h2>
         Any Questions <span>FAQ</span>
       </h2>
-      <div className='question'>
-        <h4>How do I start?</h4>
-        <div className='answer'>
-          <p>Lorem ipsum dolor sit amen.</p>
-          <p>
-            Lorem ipsum dolor sit, amex consenter border elite. Libero, nihil?
-          </p>
-        </div>
-        <div className='faq-line'></div>
-      </div>
-      <div className='question'>
-        <h4>Daily schedule?</h4>
-        <div className='answer'>
-          <p>Lorem ipsum dolor sit amen.</p>
-          <p>
-            Lorem ipsum dolor sit, abet consenter application elia. Libero,
-            nihil?
-          </p>
-        </div>
-        <div className='faq-line'></div>
-      </div>
-      <div className='question'>
-        <h4>Payment methods?</h4>
-        <div className='answer'>
-          <p>Lorem ipsum dolor sit amat.</p>
-          <p>
-            Lorem ipsum dolor sit, amer connecter amsterdam elite. Libero,
-            nihil?
-          </p>
-        </div>
-        <div className='faq-line'></div>
-      </div>
-      <div className='question'>
-        <h4>Where are we located?</h4>
-        <div className='answer'>
-          <p>Lorem ipsum dolor sit amen.</p>
-          <p>
-            Lorem ipsum dolor sit, abet consenter attraction eliz. Libero,
-            nihil?
-          </p>
-        </div>
-        <div className='faq-line'></div>
-      </div>
+      <AnimateSharedLayout>
+        <Toggle title='How do I start?'>
+          <div className='answer'>
+            <p>Lorem ipsum dolor sit amen.</p>
+            <p>
+              Lorem ipsum dolor sit, amex consenter border elite. Libero, nihil?
+            </p>
+          </div>
+        </Toggle>
+        <Toggle title='Daily schedule?'>
+          <div className='answer'>
+            <p>Lorem ipsum dolor sit amen.</p>
+            <p>
+              Lorem ipsum dolor sit, abet consenter application elia. Libero,
+              nihil?
+            </p>
+          </div>
+        </Toggle>
+        <Toggle title='Payment methods?'>
+          <div className='answer'>
+            <p>Lorem ipsum dolor sit amat.</p>
+            <p>
+              Lorem ipsum dolor sit, amer connecter amsterdam elite. Libero,
+              nihil?
+            </p>
+          </div>
+        </Toggle>
+        <Toggle title='Where are we located?'>
+          <div className='answer'>
+            <p>Lorem ipsum dolor sit amen.</p>
+            <p>
+              Lorem ipsum dolor sit, abet consenter attraction eliz. Libero,
+              nihil?
+            </p>
+          </div>
+        </Toggle>
+      </AnimateSharedLayout>
     </Faq>
   );
 };
