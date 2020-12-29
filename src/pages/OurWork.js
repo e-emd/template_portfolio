@@ -94,6 +94,9 @@ const Work = styled(motion.div)`
     padding: 1rem 0rem;
     color: #000;
   }
+  @media (max-width: 1300px) {
+    padding: 2rem;
+  }
 `;
 
 const Movie = styled(motion.div)`
