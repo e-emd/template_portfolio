@@ -10,6 +10,7 @@ import ContactUs from './pages/ContactUs';
 
 function App() {
   const location = useLocation();
+
   return (
     <div className='App'>
       <GlobalStyle />

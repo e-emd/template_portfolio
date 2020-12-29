@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
     body{
         background: #000;
         font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
     }
 
     button{

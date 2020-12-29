@@ -21,7 +21,7 @@ export const pageAnimation = {
 };
 
 export const titleAnimation = {
-  hidden: { y: 200 },
+  hidden: { y: -300 },
   show: {
     y: 0,
     transition: {
@@ -100,7 +100,7 @@ export const sliderContainer = {
 export const scrollReveal = {
   hidden: {
     opacity: 0,
-    scale: 0.75,
+    scale: 0.5,
     transition: {
       duration: 0.5,
     },

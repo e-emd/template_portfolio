@@ -1,6 +1,4 @@
 import React from 'react';
-import { useInView } from 'react-intersection-observer';
-import { useAnimation } from 'framer-motion';
 import styled from 'styled-components';
 import clock from '../img/clock.svg';
 import diaphragm from '../img/diaphragm.svg';
